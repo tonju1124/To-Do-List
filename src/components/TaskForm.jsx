@@ -64,28 +64,53 @@ const TaskForm = ({ setTasks }) => {
         <div className="task_form_bottom_line">
           <div>
             <Tag
-              tagName="HTML"
+              tagName="Gehenna"
               selectTag={selectTag}
-              selected={checkTag("HTML")}
+              selected={checkTag("Gehenna")}
             />
             <Tag
-              tagName="CSS"
+              tagName="Trinity"
               selectTag={selectTag}
-              selected={checkTag("CSS")}
+              selected={checkTag("Trinity")}
             />
             <Tag
-              tagName="JavaScript"
+              tagName="Millennium"
               selectTag={selectTag}
-              selected={checkTag("JavaScript")}
+              selected={checkTag("Millennium")}
             />
             <Tag
-              tagName="React"
+              tagName="Abydos"
               selectTag={selectTag}
-              selected={checkTag("React")}
+              selected={checkTag("Abydos")}
+            />
+            <Tag
+              tagName="Hyakkiyako"
+              selectTag={selectTag}
+              selected={checkTag("Hyakkiyako")}
+            />
+            <Tag
+              tagName="ShangHaiJing"
+              selectTag={selectTag}
+              selected={checkTag("ShangHaiJing")}
+            />
+            <Tag
+              tagName="Valkyrie"
+              selectTag={selectTag}
+              selected={checkTag("Valkyrie")}
+            />
+            <Tag
+              tagName="SRT"
+              selectTag={selectTag}
+              selected={checkTag("SRT")}
+            />
+            <Tag
+              tagName="Red_Winter"
+              selectTag={selectTag}
+              selected={checkTag("Red_Winter")}
             />
           </div>
 
-          <div>
+          <div className="right_task">
             <select
               name="status"
               value={taskData.status}
@@ -97,7 +122,7 @@ const TaskForm = ({ setTasks }) => {
               <option value="done">Done</option>
             </select>
             <button type="submit" className="task_submit">
-              + Add Task
+              Add Task
             </button>
           </div>
         </div>

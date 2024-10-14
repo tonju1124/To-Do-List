@@ -4,10 +4,15 @@ import "./Tag.css";
 
 const Tag = ({ tagName, selectTag, selected }) => {
     const tagStyle = {
-        HTML: { backgroundColor: "#fda821" },
-        CSS: { backgroundColor: "#15d4c8" },
-        JavaScript: { backgroundColor: "#ffd12c" },
-        React: { backgroundColor: "#4cdafc" },
+        Gehenna: { backgroundColor: "#e04944" },
+        Trinity: { backgroundColor: "#ffd12c" },
+        Millennium: { backgroundColor: "#0455f6" },
+        Abydos: { backgroundColor: "#57cbf1" },
+        Hyakkiyako: { backgroundColor: "#da5085" },
+        ShangHaiJing: { backgroundColor: "#03c03c" },
+        Red_Winter: { backgroundColor: "#af3a58" },
+        Valkyrie: { backgroundColor: "#9aa2d7" },
+        SRT: { backgroundColor: "#9aa2d7" },    
         default: { backgroundColor: "#f9f9f9" },
     };
     return (
